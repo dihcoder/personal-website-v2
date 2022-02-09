@@ -340,7 +340,7 @@
 
 .about-me .container #about .img-and-text {
     max-width: 60%;
-    min-width: 30rem;
+    min-width: 22rem;
     text-align: center;
 }
 
@@ -511,5 +511,10 @@
 
     #contact-me h1 {
         text-align: center;
+    }
+
+    h2 {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
