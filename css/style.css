@@ -347,6 +347,7 @@
 .about-me .container #about .img-and-text p {
     margin: auto 1rem;
     padding-bottom: 2rem;
+    line-height: 1.5;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
@@ -360,6 +361,7 @@
     margin: auto 1rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.2rem;
+    line-height: 1.5;
     font-weight: bold;
     color: darkslategrey;
 }
@@ -511,10 +513,16 @@
 
     #contact-me h1 {
         text-align: center;
+        margin-right: 4rem;
     }
 
     h2 {
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+
+    .about-me .container #about .img-and-text p {
+        width: 99%;
+        margin: auto;
     }
 }
