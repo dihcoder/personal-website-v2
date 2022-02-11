@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-.html, body {
-    overflow-x: visible; /*get rid of the white side when scrolling horizontally*/
-}
-
 .clr {
     clear: both;
 }
