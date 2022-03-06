@@ -7,6 +7,11 @@
     clear: both;
 }
 
+body {
+    box-sizing: border-box;
+    
+}
+
 #home {
     background: radial-gradient(ellipse at bottom, #669dd3, #f1f7fc);
     animation-name: timecycle;
@@ -63,9 +68,7 @@
 }
 
 #home .homespace {
-    box-sizing: border-box;
     position: relative;
-    overflow: hidden;
 }
 
 #home .homespace .clouds {
