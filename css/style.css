@@ -7,9 +7,9 @@
     clear: both;
 }
 
-body {
+.container, .homespace, .about-me, .pagebody {
     box-sizing: border-box;
-    
+    overflow: hidden;
 }
 
 #home {
