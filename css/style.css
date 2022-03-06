@@ -63,6 +63,7 @@
 }
 
 #home .homespace {
+    box-sizing: border-box;
     position: relative;
     overflow: hidden;
 }
